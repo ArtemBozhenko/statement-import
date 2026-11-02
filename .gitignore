@@ -1,0 +1,27 @@
+# Kit-generated local state (mirrors kit/.gitignore)
+kit/.mock-state.json
+kit/.mock-state.json.tmp
+kit/fixtures/oversize.csv
+
+# OS / tooling noise
+.DS_Store
+codedb.snapshot
+
+# Mobile client
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/expo-env.d.ts
+mobile/ios/
+mobile/android/
+mobile/*.orig.*
+mobile/*.jks
+mobile/*.p8
+mobile/*.p12
+mobile/*.key
+mobile/*.mobileprovision
+mobile/.metro-health-check*
+mobile/npm-debug.*
+mobile/yarn-debug.*
+mobile/yarn-error.*
